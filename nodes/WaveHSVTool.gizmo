@@ -1,0 +1,15 @@
+HSVTool {
+ huerotation {{"((frame+offset) % this.wavelength)/this.wavelength * (180-(-180)) + (-180)"}}
+ name WaveHSVTool
+ label "Wave: \[value wavelength]\nOffset: \[value offset]"
+ selected true
+ xpos -1140
+ ypos -316
+ addUserKnob {20 User}
+ addUserKnob {7 wavelength R -100 100}
+ wavelength 20
+ addUserKnob {7 offset R 0 100}
+ addUserKnob {26 ""}
+ addUserKnob {26 info l "" +STARTLINE T "<font color=#777777>modified by Attila Gasparetz | v1.01 | 2020 | "}
+ addUserKnob {26 link l "" -STARTLINE T "<a href=\"https://www.gatimedia.co.uk/wave-expression-tools\"><font color=#888888>For more info</a>"}
+}
