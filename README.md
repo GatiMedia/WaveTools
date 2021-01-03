@@ -15,7 +15,7 @@ HOW TO INSTALL:
 3. Add this code to your file init.py (if you don’t have it, create one) and modify the WaveTools_path (do not change the file init.py in the folder WaveTools)
 
 ```python
-WaveTools_path = "<path to your .nuke folder>/WaveTools"
+WaveTools_path = "<path to your .nuke folder>/WaveTools-main"
 nuke.pluginAddPath(WaveTools_path)
 ```
 
