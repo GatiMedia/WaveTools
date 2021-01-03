@@ -8,7 +8,7 @@
 # --------------------------------------------------------------
 
 ### ADD THIS TO YOUR INIT.PY
-### WaveTools_path = "<path to your .nuke folder>/WaveTools"
+### WaveTools_path = "<path to your .nuke folder>/WaveTools-main"
 ### nuke.pluginAddPath(WaveTools_path)
 
 import nuke
