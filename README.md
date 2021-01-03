@@ -9,7 +9,8 @@ HOW TO INSTALL:
 1. Unzip the archive
   
 2. Drag and drop the folder in your .nuke folder
-[For more info](https://www.gatimedia.co.uk/wave-expression-tools)
+
+[How to find your .nuke folder](https://www.gatimedia.co.uk/wave-expression-tools)
 
 [How to find your .nuke folder](hhttps://support.foundry.com/hc/en-us/articles/207271649-Q100048-Nuke-Directory-Locations)
 
