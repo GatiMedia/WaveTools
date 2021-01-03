@@ -11,7 +11,6 @@
 ### WaveTools_path = "<path to your .nuke folder>/WaveTools-main"
 ### nuke.pluginAddPath(WaveTools_path)
 
-import nuke
 import os
 
 # For more info
