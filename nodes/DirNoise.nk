@@ -1,7 +1,7 @@
 Noise {
-size 300
+size 350
 zoffset {{(frame+z_offset)*(z_evolve/1000)}}
-gamma 0.4
+gamma 0.5
 translate {{"((frame*speed) * cos((angle)*(pi/180))) "} {"((frame*speed) * sin((angle)*(pi/180))) "}}
 center {2224 1548}
 xrotate 0
