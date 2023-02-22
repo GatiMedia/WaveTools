@@ -1,25 +1,23 @@
 Noise {
- size 30
- zoffset {{(frame+z_offset)*(z_evolve/1000)}}
- gamma 0.05
- translate {{"((frame*speed) * cos((angle)*(pi/180))) "} {"((frame*speed) * sin((angle)*(pi/180))) "}}
- center {2224 1548}
- xrotate 0
- name DirNoise
- label "angle: \[format \"%.0f\" \[value angle]]\nspeed: \[format \"%.0f\" \[value speed]]\nz evolve: \[format \"%.0f\" \[value z_evolve]]"
- selected true
- xpos -150
- ypos -172
- addUserKnob {20 User}
- addUserKnob {7 angle R 0 360}
- angle 45
- addUserKnob {7 speed R 0 100}
- speed 20
- addUserKnob {26 ""}
- addUserKnob {7 z_evolve l "z evolve" R 0 100}
- z_evolve 50
- addUserKnob {7 z_offset l "z offset" R 0 100}
- addUserKnob {26 ""}
- addUserKnob {26 info l "" +STARTLINE T "<font color=#777777>modified by Attila Gasparetz | v1.01 | 2020 | "}
- addUserKnob {26 link l "" -STARTLINE T "<a href=\"https://www.gatimedia.co.uk/wave-expression-tools\"><font color=#888888>For more info</a>"}
+zoffset {{(frame+z_offset)*(z_evolve/1000)}}
+translate {{"((frame*speed) * cos((angle)*(pi/180))) "} {"((frame*speed) * sin((angle)*(pi/180))) "}}
+center {2224 1548}
+xrotate 0
+name DirNoise
+label "angle: \[format \"%.0f\" \[value angle]]\nspeed: \[format \"%.0f\" \[value speed]]\nz evolve: \[format \"%.0f\" \[value z_evolve]]"
+selected true
+xpos -1783
+ypos 49868
+addUserKnob {20 User}
+addUserKnob {7 angle R 0 360}
+angle 45
+addUserKnob {7 speed R 0 100}
+speed 20
+addUserKnob {26 ""}
+addUserKnob {7 z_evolve l "z evolve" R 0 100}
+z_evolve 50
+addUserKnob {7 z_offset l "z offset" R 0 100}
+addUserKnob {26 ""}
+addUserKnob {26 info l "" +STARTLINE T "<font color=#777777>modified by Attila Gasparetz | v1.01 | 2020 | "}
+addUserKnob {26 link l "" -STARTLINE T "<a href=\"https://www.gatimedia.co.uk/wave-expression-tools\"><font color=#888888>For more info</a>"}
 }
